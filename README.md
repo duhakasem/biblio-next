@@ -26,10 +26,18 @@ The server runs on http://localhost:3000/ by default.
 install Jest with: 
     npm i -D jest
 
-Run Jest unit tests with:
+Run Jest tests with:
 
 ```bash
 npm test
+```
+This command runs all unit, system, and end-to-end tests.
+
+
+To run all tests manually, including the new system test that uses `pg-mem`, you can run:
+
+```bash
+npx jest --verbose __tests__/ test you wanna run
 ```
 
 ## Docker Compose
