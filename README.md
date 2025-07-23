@@ -39,6 +39,8 @@ To run all tests manually, including the new system test that uses `pg-mem`, you
 ```bash
 npx jest --verbose __tests__/ test you wanna run
 ```
+If you can not run the system test run
+npm install --save-dev pg-mem
 
 ## Docker Compose
 
