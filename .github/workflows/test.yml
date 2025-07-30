@@ -43,4 +43,4 @@ jobs:
         run: npm ci
 
       - name: Run system tests only
-        run: node --experimental-vm-modules node_modules/.bin/jest --testPathPattern=api\.test\.js
+        run: node --experimental-vm-modules node_modules/.bin/jest --testPathPatterns="api.test.js"
